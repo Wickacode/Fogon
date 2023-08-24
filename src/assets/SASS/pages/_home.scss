@@ -65,3 +65,68 @@
     }
   }
   
+//Responsive Mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+    #home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+  
+    img:first-child {
+      width: 90%;
+      object-fit: contain;
+      margin: 10px 0;
+    }
+    img:nth-child(2) {
+      width: 90%;
+      object-fit: contain;
+      margin: 10px 0;
+    }
+    img:last-child {
+      width: 90%;
+      object-fit: contain;
+      margin: 10px 0;
+    }
+  }
+
+  #restaurant-description {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 1em;
+  
+    .description {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px;
+      background-color: rgba(28, 32, 33, 0.7);
+      color: aliceblue;
+      animation: fade-in 3s ease-out;
+  
+  
+      h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        font-family: "Taviraj", serif;
+        color: #b28158;
+      }
+      p {
+        font-family: "Merriweather Sans", sans-serif;
+        text-align: center;
+        font-size: 12px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+      }
+    }
+    img {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+}

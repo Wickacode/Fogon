@@ -4,8 +4,9 @@ import ChefImg from "../assets/fogon-img/09.png";
 export default function Chef() {
   return (
     <div id="chef-description">
-      <h2>Le chef et gérant, Javier Meneses</h2>
       <div className="chef-detail">
+      <h2>Le chef et gérant, Javier Meneses</h2>
+
         <p>
         C'est en Juillet 2022, à seulement l'âge de 23 ans, que Javier Meneses
         ouvre son restaurant bistronomique nommé Fogón. Cet ancien joueur de
@@ -17,8 +18,9 @@ export default function Chef() {
         passion des chefs pour les saveurs raffinées, les produits de qualité et
         l'art de la présentation.
       </p>
-      <img src={ChefImg} alt="" />
       </div>
+      <img src={ChefImg} alt="" />
+      
       
     </div>
   );

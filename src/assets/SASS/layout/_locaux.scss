@@ -35,6 +35,10 @@
     .locaux-enseignes {
       img {
         width: 100px;
+        &:hover {
+            -webkit-animation: none;
+            animation: none;
+          }
       }
     }
   }

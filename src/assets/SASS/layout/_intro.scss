@@ -23,3 +23,66 @@
     }
   }
 }
+
+//Responsive Mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  #intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.4em;
+    padding: 40px 0 70px;
+    .intro-details {
+      .icone {
+        font-size: 1.5em;
+      }
+  
+      span {
+          font-size: 1em;
+      }
+    }
+  }
+}
+
+//Responsive tablette
+@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
+  #intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.6em;
+    padding: 40px 0 70px;
+    .intro-details {
+      .icone {
+        font-size: 1.5em;
+      }
+  
+      span {
+          font-size: 1.2em;
+      }
+    }
+  }
+}
+
+//Responsive desktop 
+@media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+  #intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.6em;
+    padding: 40px 0 70px;
+    .intro-details {
+      .icone {
+        font-size: 1.5em;
+      }
+  
+      span {
+          font-size: 1.2em;
+      }
+    }
+  }
+}

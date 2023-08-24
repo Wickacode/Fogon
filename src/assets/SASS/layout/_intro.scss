@@ -1,0 +1,25 @@
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5em;
+  text-align: center;
+  background-color: #1c2021;
+  padding: 40px 0 70px;
+  .intro-details {
+    display: flex;
+    flex-direction: column;
+
+    .icone {
+      font-size: 3em;
+      color: #b28158;
+    }
+
+    span {
+        margin-top: 15px;
+        font-size: 1.2em;
+        font-family: "Taviraj", serif;
+        color: aliceblue;
+    }
+  }
+}

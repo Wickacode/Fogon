@@ -3,6 +3,9 @@ import home01 from ".././assets/fogon-img/06.png";
 import home02 from ".././assets/fogon-img/14.png";
 import home03 from ".././assets/fogon-img/07.png";
 
+import Intro from "../components/Intro";
+
+
 export default function Home() {
   return (
     <div>
@@ -11,6 +14,8 @@ export default function Home() {
         <img src={home02} alt="" />
         <img src={home03} alt="" />
       </section>
+      <Intro />
+
       <section id="restaurant-description">
         <div className="description">
           <h1>Le restaurant Fogón</h1>

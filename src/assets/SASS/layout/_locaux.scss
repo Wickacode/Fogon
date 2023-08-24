@@ -1,0 +1,41 @@
+#locaux {
+  margin-bottom: 50px;
+  h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 2em;
+    color: #b28158;
+    font-family: "Taviraj", serif;
+  }
+
+  .locaux-enseignes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+
+    img {
+      cursor: pointer;
+      width: 150px;
+      &:hover {
+        -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+        animation: heartbeat 1.5s ease-in-out infinite both;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  #locaux {
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .locaux-enseignes {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}

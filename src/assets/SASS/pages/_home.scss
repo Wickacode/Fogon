@@ -111,19 +111,18 @@
 @media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
     #home {
         align-items: center;
-        flex-direction: column;
-        gap: 0;
+        gap: 1em;
       
         img:first-child {
-          width: 80%;
+          width: 33%;
           margin: 10px 0;
         }
         img:nth-child(2) {
-          width: 80%;
+          width: 33%;
           margin: 10px 0;
         }
         img:last-child {
-          width: 80%;
+          width: 33%;
           margin: 10px 0;
         }
       }

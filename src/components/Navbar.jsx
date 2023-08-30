@@ -26,10 +26,10 @@ export default function Navbar() {
           )}
         </button>
         <ul>
-          <li>Accueil</li>
-          <li>Menu</li>
-          <li>Réservation</li>
-          <li>Contact</li>
+          <li><a href="">Menu</a></li>
+          <li><a href="#chef-description">Le chef</a></li>
+          <li><a href="">Pop-up</a></li>
+          <li><a href="">Contact</a></li>
           <span className="contact-number">
             <i className="fa-solid fa-phone"></i>
             05 59 01 70 95

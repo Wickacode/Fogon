@@ -1,6 +1,8 @@
+// Navbar.js
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons"; // Importez les icônes nécessaires
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 import FogonLogo from "../assets/fogon-img/fogon.png";
 
@@ -26,10 +28,18 @@ export default function Navbar() {
           )}
         </button>
         <ul>
-          <li><a href="">Menu</a></li>
-          <li><a href="#chef-description">Le chef</a></li>
-          <li><a href="">Pop-up</a></li>
-          <li><a href="">Contact</a></li>
+          <li>
+          <Link to="/">Accueil</Link>
+          </li>
+          <li>
+            <a href="#chef-description">Le chef</a>
+          </li>
+          <li>
+            <Link to="/popUp">Pop-Up</Link>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
           <span className="contact-number">
             <i className="fa-solid fa-phone"></i>
             05 59 01 70 95

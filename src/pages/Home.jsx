@@ -3,6 +3,9 @@ import home01 from ".././assets/fogon-img/06.png";
 import home02 from ".././assets/fogon-img/14.png";
 import home03 from ".././assets/fogon-img/07.png";
 
+import Chef from "../components/Chef";
+import Locaux from "../components/Locaux";
+
 import Intro from "../components/Intro";
 
 
@@ -36,6 +39,8 @@ export default function Home() {
           <img src={platFogon} alt="" />
         </div> */}
       </section>
+      <Chef />
+      <Locaux />
     </div>
   );
 }
